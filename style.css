@@ -13,7 +13,7 @@ a {
 }
 
 span.green{
-	color: #3F6A4D;
+	color: #3f526a;
 	font-weight: 600;
 }
 
@@ -171,7 +171,7 @@ span.green{
 	word-wrap: break-word;
 }
 .page-banner .banner-content .breadcrumb li.active {
-	color: #3f6a4dff;
+	color: rgb(63, 79, 106);
 }
 .page-banner .banner-content .breadcrumb li:first-of-type a {
 	margin-left: 0;
@@ -520,7 +520,7 @@ div.iconsInfo {
 /* - Top Hedaer */
 .top-header {
 	border-bottom: 1px solid #e5e5e5;
-    border-top: 4px solid #3f6a4dff;   
+    border-top: 4px solid rgb(63, 79, 106);   
     padding: 19px 0 19px;    
 }
 
@@ -557,7 +557,7 @@ div.iconsInfo {
     width: 42px;
 }
 .top-header .social ul li a:hover {
-	background-color: #3f6a4dff;
+	background-color: rgb(63, 79, 106);
 	color: #fff;
 }
 
@@ -596,7 +596,7 @@ div.iconsInfo {
 	position: relative;
 }
 .navbar-fixed-top.menu-block .container {
-	border: 2px solid #3f6a4dff;
+	border: 2px solid rgb(63, 79, 106);
 	border-top: none;
 	max-width: 1170px;
 }
@@ -623,7 +623,7 @@ h3.title-sideCol {
     font-size: 16px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    background-color: #3f6a4dff;
+    background-color: rgb(63, 79, 106);
     padding: 0.5em;
     margin: 0;
 	color: #fff;
@@ -647,7 +647,7 @@ button.CfPbutton{
     font-size: 16px !important;
     letter-spacing: 1.2px !important;
     text-transform: uppercase !important;
-    background-color: #3f6a4dff !important;
+    background-color: rgb(63, 79, 106) !important;
     padding: 0.5em !important;
     margin: 20px !important;
     border: none !important;
@@ -722,7 +722,7 @@ div#download-section div.container div.row{
 
 div.download-box{
 	position: relative;
-    background-color: #3f6a4dff;
+    background-color: rgb(63, 79, 106);
     padding: 5px 0 5px 40px;    
     z-index: 1;
 	border-radius: 25px;
@@ -793,7 +793,7 @@ h3.title-caseStudy{
     font-size: 22px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    background-color:#3f6a4dff;
+    background-color:rgb(63, 79, 106);
     padding: 0.5em;
     width: fit-content;
 }
@@ -882,11 +882,11 @@ h3.title-caseStudy{
 }
 .ow-navigation .nav.navbar-nav li > div.dropup > a:hover{
 	text-decoration: none;
-	background-color: #3F6A4D;
+	background-color: rgb(63, 79, 106);
 }
 .footer-menu .ow-navigation .nav.navbar-nav > li > a.active {
 	font-weight: 800;
-	background-color: #3F6A4D;
+	background-color: rgb(63, 79, 106);
 }
 .footer-menu .ow-navigation .nav.navbar-nav > li.active > a,
 .footer-menu .ow-navigation .nav.navbar-nav > li > a:hover {
@@ -994,7 +994,7 @@ h3.title-caseStudy{
 		padding-left: 0;
 	}
 	.footer-menu .ow-navigation .nav.navbar-nav > li > a:hover {
-		color: #3f6a4dff;
+		color: rgb(63, 79, 106);
 	}
 	.footer-menu .dropdown-menu > li > a {
 		color: #a4b0b6;
@@ -1009,7 +1009,7 @@ h3.title-caseStudy{
 		padding-bottom: 5px;
 	}
 	.footer-menu .ow-navigation .nav.navbar-nav .dropdown-menu li:hover > a {
-		color: #3f6a4dff;
+		color: rgb(63, 79, 106);
 	}
 
 	div.download-box{

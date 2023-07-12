@@ -44,7 +44,7 @@
 	-o-transition: all 1s ease 0s;
 }
 .ow-navigation .navbar-brand span:hover {
-	color: #3f6a4dff;
+	color: rgb(63, 79, 106);
 }
 .ow-navigation .nav.navbar-nav > li {
 	margin: 0 8px;
@@ -96,7 +96,7 @@
 .ow-navigation .dropdown-menu li:hover > a,
 .ow-navigation .dropdown-menu li > a:hover,
 .ow-navigation .nav.navbar-nav li > div.dropdown:hover{
-	background-color: #3f6a4dff;
+	background-color: rgb(63, 79, 106);
 	color: white;
 	cursor: pointer;
 
@@ -110,11 +110,11 @@
 
 .ow-navigation .nav.navbar-nav li > div.dropdown.open,
 .ow-navigation .nav.navbar-nav li > div.dropup.open > a{
-	background-color: #3f6a4dff;
+	background-color: rgb(63, 79, 106);
 	color: white;
 }
 .ow-navigation .nav.navbar-nav li > div.dropdown.open > a{
-	background-color: #3f6a4dff;
+	background-color: rgb(63, 79, 106);
 	color: white;
 }
 
@@ -142,7 +142,7 @@ a.pastEditions{
 		opacity: 1;
 		transform: scaleY(1);
 		visibility: visible;
-		background-color: #3f6a4dff;
+		background-color: rgb(63, 79, 106);
 	}	
 	.ow-navigation .ddl-switch {
 		display: none !important;
