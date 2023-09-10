@@ -115,10 +115,10 @@
 										</div>
 									  </div>
 								</li>-->
-								<!--	<li><a title="Organization" href="organization.html">Organization</a></li> -->
+									<li><a title="Organization" href="organization.html">Organization</a></li>
                             	<!--      <li><a title="Organization" href="">Organization</a></li>-->
 								<li class="active"><a title="Submission" href="submission.html">Submission</a></li>
-								<li><a title="Artifacts" href="artifact.html">Artifacts</a></li>
+                                <!--<li><a title="Artifacts" href="artifact.html">Artifacts</a></li>-->
 								<li><a title="Previous Editions" href="https://fmeurope.org/formalise/?" target="_blank">
 									Previous Editions
 								  </a>
@@ -176,78 +176,84 @@
 					<h3 class="sub-title-0 mb-20">
                         <span class="topics">SUBMISSIONS</span>
                     </h3>
-                    <p class="text">We invite you to submit: 
-                    <li><strong>Full research papers</strong>  (up to 10 pages excluding references)
-						that must describe authors’ original research work and results. We encourage
-						authors to include validation w.rt. a case study in the recommended themes. 
-						We welcome papers focusing on tools and tool development.
+                    <p class="text">We accept papers in three categories:
+                    <li><strong>Full research papers</strong>  describing original research work and
+                        results. We encourage authors to include validation of their
+                        contributions by means of a case study or experiments.  We also
+                        welcome research papers focusing on tools and tool development.
 					</li>
-                    <li><strong>Case study papers</strong>  (up to 10 pages excluding references)
-						that should identify lessons learned, validate theoretical results 
-						(such as scalability of methods) or provide specific motivation for further 
-						research and development.
+                    <li><strong>Case study papers</strong>  discussing a significant application that
+                        suggests general lessons learned and motivates further research, or
+                        empirically validates theoretical results (such as a technique's
+                        scalability).
 					</li>
-					<li><strong>Research ideas papers</strong>  (be up to 4 pages plus up to 1 additional page of references) 
-						on new research ideas in order to stimulate discussions.</li></p>
+					<li><strong>Research ideas papers</strong>  describing new ideas in preliminary form,
+                        in a way that can stimulate interesting discussions at the
+                        conference, and suggest future work.</li></p>
                     
-                    <p  style="margin-top: 1em">To avoid that authors waste time fitting their papers into the stated 
-						limit at the expense of presentation clarity, paper lengths slightly exceeding the 
-						stated limit will be tolerated provided that the presentation is of high quality, 
-						which will be left at the appreciation of the reviewers.
+                    <p  style="margin-top: 1em">All papers submitted to the FormaliSE 2024 conference must be written
+                    in English, must be unpublished original work, and must not be under
+                    review or submitted elsewhere at the time of submission. Submissions
+                    must comply with the FormaliSE's lightweight double-anonymous review
+                    process (see below).
 					</p>
+                    
+                    <p  style="margin-top: 1em">Full research papers and case study papers can take up to 10 pages
+                    including all text, figures, tables and appendices, but excluding
+                    references.  Research ideas papers can take up to 4 pages, plus up to
+                    1 additional page solely for references.
+                    </p>
+                    
+                    <p  style="margin-top: 1em">To avoid that authors waste time fitting their papers into the stated
+                    limit at the expense of presentation clarity, paper lengths slightly
+                    exceeding the stated limit will still be considered, provided that the
+                    reviewers find that the presentation is of high quality.
+                    </p>
 
-                    <p class="mt-30">All submission must be unpublished original work written in English, 
-						must conform to the 
-						<a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">
-						IEEE Conference Proceedings Formatting Guidelines</a>, and should not be under review or submitted elsewhere whilst being under
-						consideration. 
+                    <p class="mt-30">All submissions must be in PDF format and must conform to the
+						<a href="https://www.acm.org/publications/proceedings-template" target="_blank">
+                            ACM Primary Article Template</a>. In LaTeX, use options <mark>sigconf</mark>, <mark>review</mark>, and <mark>anonymous</mark>:
+                        <mark>\documentclass[sigconf,review,anonymous]{acmart}</mark>.  These options add line numbers (which helps reviewers refer to specific lines in a submission), and omit author information (as required by the double-anonymous format).
 
-					<p>	We recommend placing the following two lines in your LaTeX source right after the 
-						<span style="font-family: monospace;">\documentclass</span> command:</p>
-
-
-					<p>	<span style="font-family: monospace;">\usepackage[switch,columnwise]{lineno} </span> <br>
-						<span style="font-family: monospace;">\linenumbers</span></p>
-                    <p>   This adds line numbers, thereby allowing reviewers to refer to specific lines in their comments.
-					</p> 	
-					<p>	Upon submission, papers must comply with the FormaliSE's lightweight double-blind review process.</p>
-					</p>
-                    <p class="mt-30">Submissions to FormaliSE 2024 can be made via
-						<a href="#" target="_blank">HotCRP</a> 						
-						by the submission deadline. We encourage authors to submit artifact in addition to their papers. </p>
+                    <p class="mt-30">To submit a paper to FormaliSE 2024 use the following HotCRP link:
+						<a href="https://formalise24.hotcrp.com/" target="_blank">HotCRP</a>
+						 </p>
 
 
 					<h3 class="sub-title-0 mb-20">
-						<span class="topics">REVIEW	PROCESS</span>
+						<span class="topics">Lightweight Double-Anonymous Review Process for Papers</span>
 					</h3>
-                    <p class="mt-30">FormaliSE 2024 uses the following light-weight double-blind review process: Authors of papers must 
-						omit their names and institutions from the title page, they should refer to their other work in the third 
-						person, and omit acknowledgments that could reveal their identity or affiliation. </p>
-					<p class="mt-30">The purpose is to avoid 
-						any bias based on authors' identity characteristics, such as gender, seniority, or nationality, 
-						in the review process. Our goal is to facilitate an unbiased approach to reviewing by supporting 
-						reviewers' access to works that do not carry obvious references to the authors' identities. </p>
-					<p class="mt-30">	As mentioned above, this is a light-weight double-blind process. Anonymization should not be a 
-						heavy burden for authors and should not make papers weaker or more difficult to review. 
-						Advertising the paper on alternate forums (e.g., on a personal web-page, pre-print archive, email, 
-						talks, discussions with colleagues) is permitted, and authors will not be penalized by for such 
-						advertisement.</p>
+                    <p class="mt-30">As in recent editions, FormaliSE 2024 will use a lightweight
+                    double-anonymous process. Authors must omit their names and
+                    institutions from the title page, cite their own work in the third
+                    person, and omit acknowledgments that may reveal their identity or
+                    affiliation. The purpose is reducing chances of reviewer bias
+                    influenced by the authors’ identities. The double-anonymous process
+                    is, however, lightweight, which means that it should not pose a heavy
+                    burden for authors, nor should make a paper's presentation weaker
+                    or more difficult to review. Also, advertising the paper as part of
+                    your usual research activities (for example, on your personal
+                    web-page, in a pre-print archive, by email, in talks or discussions
+                    with colleagues) is permitted without penalties. </p>
 
                     <h3 class="sub-title-0 mb-20">
                         <span class="topics">PAPER SELECTION	</span>
                     </h3>
-                    <p class="mt-30">Each paper will be reviewed by at least three program committee members that judge the 
-					paper based on its clarity, relevance, originality, and contribution to the field.</p>
-					<p class="mt-30"> FormaliSE 2024 will continue the light-weight rebuttal scheme: if all the reviewers of a 
-					given submission agree that a clarification from the authors regarding a specific 
-					question could move a borderline paper into the acceptable range, the chairs will ask 
-					that question to the authors by e-mail and post their reply on EasyChair for the benefit 
-					of the reviewers. </p>
-					<p class="mt-30">The goal of such light-weight rebuttals is to eliminate "coin-toss" 
-					decisions on borderline papers. Hence, it will clearly concern only a minority of 
-					submissions and most of the authors should not expect to receive such questions. However, 
-					we would ask the corresponding authors of all submissions to make sure that they are 
-					available to answer a question by email if the necessity were to arise.</p>
+                    <p class="mt-30">Each paper will be reviewed by at least three program committee
+                    members that will judge its overall quality in terms of its soundness,
+                    significance, novelty, verifiability, and presentation clarity.</p>
+					<p class="mt-30"> FormaliSE 2024 will adopt a lightweight response process: if all the
+                    reviewers of a given paper agree that a clarification from the authors
+                    regarding a specific question could move the paper from "borderline"
+                    to "accept", the chairs will relay the reviewers' questions to the
+                    authors by email, and then share their reply with the reviewers in
+                    HotCRP. The goal of lightweight responses is reducing the chance of
+                    random decisions on borderline papers. Hence, they will only be used
+                    for a minority of submissions; most papers will not require such an
+                    author response. Nevertheless, we would ask the corresponding authors
+                    of all submissions to make sure that they are available to answer
+                    questions by email upon request. </p>
+					
 
 					<h3 class="sub-title-0 mb-20">
                         <span class="topics">ARTIFACT EVALUATION</span>
@@ -257,38 +263,51 @@
 						reproducibility, FormaliSE 2024 continues its Artifact Evaluation (AE) procedure. 
 					<p class="mt-30">	An artifact is any additional material (software, data sets, machine-checkable proofs, 
 						etc.) that substantiates the claims made in the paper and ideally makes them fully 
-						reproducible. Submission of an artifact is optional but encouraged for all papers 
-						where it can support the results presented in the paper. </p>
-					<p class="mt-30">Artifact review is single-blind
-						(the paper corresponding to an artifact must still follow the double-blind submissions 
-						requirements) and will be conducted concurrently with the paper reviewing process. </p>
-					<p class="mt-30">	Artifacts will be handled by a separate Artifact Evaluation Committee, and the Artifact 
-						Evaluation process will be set up such that the anonymization of the corresponding 
-						papers will not be compromised. The results of the evaluation may be taken into 
-						consideration for the corresponding paper acceptance decision. Accepted papers with a 
-						successfully evaluated artifact will receive a badge to be shown on the published 
-						paper's title page.</p>
+						reproducible.
+                    <p class="mt-30">Submission of an artifact is optional but encouraged for all papers
+                    where it can support the results presented in the paper. Artifact
+                    review is single-anonymous (the paper corresponding to an artifact
+                    must still follow the double-anonymous submissions requirements) and
+                    will be conducted concurrently with the paper reviewing process.
+                    Artifacts will be handled by a separate Artifact Evaluation Committee,
+                    and the Artifact Evaluation process will be set up such that the
+                    anonymization of the corresponding papers will not be
+                    compromised. Accepted papers with a successfully evaluated artefact
+                    will be awarded the <a href="https://eapls.org/pages/artifact_badges/" target="_blank">EAPLS badges</a> that apply (among
+                    "Functional", "Reusable", and "Available"). Awarded badges are to be
+                    added to the camera-ready version of the paper.
 
-					<p>Artifacts will be assessed with respect to their consistency with the results 
-						presented in the paper, their completeness, their documentation, and their ease of use. 
-						The Artifact Evaluation will include an initial check for technical issues; authors 
-						of artifacts may be contacted by e-mail within the first two weeks after artifact 
-						submission to help resolve any technical problems that prevent the evaluation of an 
-						artifact if necessary.</p>	
+					<p>Artifacts will be assessed with respect to their consistency with the
+                    results presented in the paper, their completeness, their
+                    documentation, and their ease of use. The Artifact Evaluation will
+                    include an initial check for technical issues; authors of artifacts
+                    may be contacted by email within the first two weeks after artifact
+                    submission to help resolve any technical problems that prevent the
+                    evaluation of an artifact if necessary.</p>
+                    
+                    <p>The results of an artifact evaluation will not be available to the
+                    reviewers of the corresponding paper; hence, they will not affect the
+                    paper's acceptance decision. However, reviewers will know whether a
+                    paper has submitted *any* artifacts; this piece of information may be
+                    taken into account to decide whether the paper should be
+                    accepted. Thus, if there are justifiable reasons why a paper's
+                    artifacts cannot be submitted, they should be pointed out in the paper
+                    so that the reviewers can appreciate them and adjust their
+                    expectations accordingly.</p>
 						
-					<p>	Detailed guidelines for preparation and submission of artifacts will be specified on 
-						the <a href="artifact.html">artifact page</a>.</p>
+					<p>	Detailed guidelines for preparation and submission of artifacts will be described in a dedicated page in <a href="artifact.html">artifact page</a>.</p>
 						
 					<h3 class="sub-title-0 mb-20">
 						<span class="topics">PUBLICATION</span>
 					</h3>
-					<p class="mt-30">All accepted papers are published as part of the ICSE 2023 
+					<p class="mt-30">All accepted papers are published as part of the ICSE 2024
 						Proceedings in the ACM and IEEE Digital Libraries.</p>
 
-					<p style="margin-bottom: 2em;">At least one author of each accepted paper is required to register 
-						for the conference and present the paper at the conference — physically or, 
-						if the circumstances warrant so, virtually. Otherwise, the paper will be 
-						removed from the proceedings.
+					<p style="margin-bottom: 2em;">At least one author of each accepted paper is required to register for
+                    the conference and present the paper at the conference — physically
+                    or, if the circumstances do not allow so, virtually. Failure to
+                    register an author will result in a paper being removed from the
+                    proceedings.
 					</p>
 
 
@@ -398,10 +417,10 @@
 									  <a class="dropdown-item pastEditions" title="Social Event" href="socialEvent.html">Social Event</a>	
 									</div>
 								  </div>
-							</li>
+							</li>-->
 							<li><a title="Organization" href="organization.html">Organization</a></li>
 							<li><a class="active"  title="Submission" href="submission.html">Submission</a></li>
-							<li><a title="Artifacts" href="artifact.html">Artifacts</a></li>-->
+                            <!--<li><a title="Artifacts" href="artifact.html">Artifacts</a></li>-->
 							<li><a title="Previous Editions" href="https://fmeurope.org/formalise/?" target="_blank">
 								Previous Editions
 							  </a>
